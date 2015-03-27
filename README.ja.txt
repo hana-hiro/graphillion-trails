@@ -125,5 +125,5 @@ MIT Licenseで公開しております。正文（英語）はLICENSE.txtにあ�
 
 7. お問い合わせ
 
-Hiroyuki HANADA <hana-hiro@live.jp>
+Hiroyuki HANADA <hana-hiro@live.jp> （日本語か英語でお願いします）
 

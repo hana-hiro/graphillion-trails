@@ -127,5 +127,5 @@ Available under MIT License. The full license text is in LICENSE.txt.
 
 7. Contact
 
-Hiroyuki HANADA <hana-hiro@live.jp>
+Hiroyuki HANADA <hana-hiro@live.jp> (contact in English or Japanese)
 
