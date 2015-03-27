@@ -1,0 +1,6 @@
+*~
+*.sgraph
+*.lsgraph
+*.lsgraph.json
+*.pyc
+
