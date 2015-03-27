@@ -6,6 +6,7 @@
 # graphillion-trails: Enumerating trails in a graph
 # (C) 2014-2015 Hiroyuki HANADA <hana-hiro@live.jp>
 # 
+# For details, see README.txt.
 # Available under the MIT License. See LICENSE.txt.
 # 
 # ============================================================
