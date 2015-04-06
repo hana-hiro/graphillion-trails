@@ -1,6 +1,11 @@
 graphillion-trails
 (C)2014-2015 Hiroyuki HANADA <hana-hiro@live.jp>
 
+当プログラムは、著者が研究プロジェクト「ERATO湊離散構造処理系プロジェクト」
+（科学技術振興機構）の在籍中に作成したものです。
+https://www-erato.ist.hokudai.ac.jp/
+http://www.jst.go.jp/erato/research_area/ongoing/mrk_PJ.html
+
 1. 概要
 
 このプログラムは、グラフ中の経路列挙を取り扱うライブラリ「Graphillion」を用いて、
@@ -38,7 +43,7 @@ http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr_13_65/tcstr_13_65.pdf
 
 3. 準備
 
-PythonとGraphillionをインストールしてください。
+PythonとGraphillion（上記参照）をインストールしてください。
 
 4. 動かす
 
