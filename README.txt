@@ -1,6 +1,12 @@
 graphillion-trails
 (C)2014-2015 Hiroyuki HANADA <hana-hiro@live.jp>
 
+The author conducted the work under the research project
+"ERATO Minato Discrete Structure Manipulation System Project"
+by Japan Science and Technology Agency.
+https://www-erato.ist.hokudai.ac.jp/
+http://www.jst.go.jp/erato/research_area/ongoing/mrk_PJ.html
+
 1. Overview
 
 This program enumerates all trails (edge-disjoing walks) or all Eulerian trails
@@ -42,7 +48,7 @@ http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr_13_65/tcstr_13_65.pdf
 
 3. Preparation
 
-Install Python and then Graphillion.
+Install Python and then Graphillion (see above).
 
 4. Running the program
 
@@ -128,4 +134,3 @@ Available under MIT License. The full license text is in LICENSE.txt.
 7. Contact
 
 Hiroyuki HANADA <hana-hiro@live.jp> (contact in English or Japanese)
-
