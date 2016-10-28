@@ -1,4 +1,5 @@
-graphillion-trails
+# graphillion-trails
+
 (C)2014-2015 Hiroyuki HANADA <hana-hiro@live.jp>
 
 当プログラムは、著者が研究プロジェクト「ERATO湊離散構造処理系プロジェクト」
@@ -6,7 +7,7 @@ graphillion-trails
 https://www-erato.ist.hokudai.ac.jp/
 http://www.jst.go.jp/erato/research_area/ongoing/mrk_PJ.html
 
-1. 概要
+# 1. 概要
 
 このプログラムは、グラフ中の経路列挙を取り扱うライブラリ「Graphillion」を用いて、
 グラフ中のtrail（辺素な路）あるいはEulerian trail（すべての辺を一度ずつ用いる路）を
@@ -21,7 +22,7 @@ http://www.jst.go.jp/erato/research_area/ongoing/mrk_PJ.html
     |/   |
     C----D
 
-2. 技術的な解説
+# 2. 技術的な解説
 
 これまで、trailではなくsimple path（点素な路）を列挙することについては多数の検討があり、
 特にzero-suppressed binary decision diagram (ZDD)を用いた方法は、多くの現実の問題に
@@ -41,11 +42,11 @@ https://github.com/takemaru/graphillion
 [技術解説（英語）]
 http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr_13_65/tcstr_13_65.pdf
 
-3. 準備
+# 3. 準備
 
 PythonとGraphillion（上記参照）をインストールしてください。
 
-4. 動かす
+# 4. 動かす
 
 まず、グラフを表すファイルを用意します。（サンプルも含まれています。）
 グラフを表すファイルは、各行が辺を表し、各行をスペースで区切ったそれぞれが頂点を表すものとします。
@@ -120,15 +121,15 @@ PythonとGraphillion（上記参照）をインストールしてください。
 - Line graphにする前の元のグラフの頂点から、それを含むline graph上の頂点
   （＝元のグラフ上の辺）の一覧を得る連想配列
 
-5. コマンドラインオプション
+# 5. コマンドラインオプション
 
 python graphtrail.py -h で見られます。
 
-6. ライセンス
+# 6. ライセンス
 
 MIT Licenseで公開しております。正文（英語）はLICENSE.txtにあります。
 
-7. お問い合わせ
+# 7. お問い合わせ
 
 Hiroyuki HANADA <hana-hiro@live.jp> （日本語か英語でお願いします）
 

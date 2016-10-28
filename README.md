@@ -1,4 +1,5 @@
-graphillion-trails
+# graphillion-trails
+
 (C)2014-2015 Hiroyuki HANADA <hana-hiro@live.jp>
 
 The author conducted the work under the research project
@@ -7,9 +8,9 @@ by Japan Science and Technology Agency.
 https://www-erato.ist.hokudai.ac.jp/
 http://www.jst.go.jp/erato/research_area/ongoing/mrk_PJ.html
 
-1. Overview
+# 1. Overview
 
-This program enumerates all trails (edge-disjoing walks) or all Eulerian trails
+This program enumerates all trails (edge-disjoint walks) or all Eulerian trails
 (walks that visit every edge just once) in a graph,
 using "Graphillion": a path enumeration library in graphs.
 
@@ -22,7 +23,7 @@ Among them, the last 6 trails are Eulerian.
     |/   |
     C----D
 
-2. Technical feature
+# 2. Technical feature
 
 There are many researches on enumerating simple paths (vertex-disjoint walks)
 rather than trails. Especially, the methods based on "zero-suppressed binary
@@ -46,11 +47,11 @@ graph and path library.
 https://github.com/takemaru/graphillion (distributed here)
 http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr_13_65/tcstr_13_65.pdf
 
-3. Preparation
+# 3. Preparation
 
 Install Python and then Graphillion (see above).
 
-4. Running the program
+# 4. Running the program
 
 First let us prepare graph files. (Some samples are included.)
 In the file, each line represents an edge, and each element in the line
@@ -123,14 +124,14 @@ FILENAME.lsgraph.json
 - The mapping from the vertices in the original graph to the vertices in the
   line graph (i.e. edges in the original graph)
 
-5. Command line option
+# 5. Command line option
 
 python graphtrail.py -h
 
-6. License
+# 6. License
 
 Available under MIT License. The full license text is in LICENSE.txt.
 
-7. Contact
+# 7. Contact
 
 Hiroyuki HANADA <hana-hiro@live.jp> (contact in English or Japanese)
