@@ -3,9 +3,9 @@
 (C)2014-2015 Hiroyuki HANADA <hana-hiro@live.jp>
 
 当プログラムは、著者が研究プロジェクト「ERATO湊離散構造処理系プロジェクト」
-（科学技術振興機構）の在籍中に作成したものです。
-https://www-erato.ist.hokudai.ac.jp/
-http://www.jst.go.jp/erato/research_area/ongoing/mrk_PJ.html
+（科学技術振興機構）の在籍中に作成したものです。  
+[https://www-erato.ist.hokudai.ac.jp/](https://www-erato.ist.hokudai.ac.jp/)  
+[http://www.jst.go.jp/erato/research\\_area/completed/mrk\\_PJ.html](http://www.jst.go.jp/erato/research_area/completed/mrk_PJ.html)
 
 # 1. 概要
 
@@ -29,19 +29,19 @@ http://www.jst.go.jp/erato/research_area/ongoing/mrk_PJ.html
 対して有効に機能することが知られています（最悪時間計算量では従来と変わらず最悪で指数時間）。
 
 著者はこのsimple path列挙手法を、trailの列挙のために用いることを検討し、
-これが行える条件を数学的に示すとともに実装しました。
+これが行える条件を数学的に示すとともに実装しました。  
 具体的には、元のグラフの各辺に一対一対応する点を持つグラフ「line graph」を用いています。
 
--   http://link.springer.com/chapter/10.1007/978-3-319-15612-5_15 （国際会議原稿）
--   http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr_14_79/tcstr_14_79.pdf （上記のテクニカルレポート版）
+-   [http://link.springer.com/chapter/10.1007/978-3-319-15612-5\\_15](http://link.springer.com/chapter/10.1007/978-3-319-15612-5_15) （国際会議原稿）
+-   [http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr\\_14\\_79/tcstr\\_14\\_79.pdf](http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr_14_79/tcstr_14_79.pdf) （上記のテクニカルレポート版）
 
 （上記の記事ではEulerian trailに限定して議論していますが、一般のtrailでも方法は同じです）
 
 なお本プログラムでは、simple pathを列挙するためのソフトウェアとして、上記の手法を
 Pythonから使えるようにしたライブラリ「Graphillion」を用いています。
 
--   [Graphillion配布サイト] https://github.com/takemaru/graphillion
--   [技術解説（英語）] http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr_13_65/tcstr_13_65.pdf
+-   [Graphillion配布サイト] [https://github.com/takemaru/graphillion](https://github.com/takemaru/graphillion)
+-   [技術解説（英語）] [http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr\\_13\\_65/tcstr\\_13\\_65.pdf](http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr_13_65/tcstr_13_65.pdf)
 
 # 3. 準備
 
@@ -136,4 +136,3 @@ MIT Licenseで公開しております。正文（英語）はLICENSE.txtにあ�
 # 7. お問い合わせ
 
 Hiroyuki HANADA <hana-hiro@live.jp> （日本語か英語でお願いします）
-

@@ -4,9 +4,9 @@
 
 The author conducted the work under the research project
 "ERATO Minato Discrete Structure Manipulation System Project"
-by Japan Science and Technology Agency.
-https://www-erato.ist.hokudai.ac.jp/
-http://www.jst.go.jp/erato/research_area/ongoing/mrk_PJ.html
+by Japan Science and Technology Agency.  
+[https://www-erato.ist.hokudai.ac.jp/](https://www-erato.ist.hokudai.ac.jp/)  
+[http://www.jst.go.jp/erato/research\\_area/completed/mrk\\_PJ.html](http://www.jst.go.jp/erato/research_area/completed/mrk_PJ.html)
 
 # 1. Overview
 
@@ -37,10 +37,8 @@ to the edges in the original graph.
 
 [References]
 
--   http://link.springer.com/chapter/10.1007/978-3-319-15612-5_15  
-    (Proceedings in an international conference)
--   http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr_14_79/tcstr_14_79.pdf  
-    (Technical report version of the proceeding above)
+-   [http://link.springer.com/chapter/10.1007/978-3-319-15612-5\\_15](http://link.springer.com/chapter/10.1007/978-3-319-15612-5_15) (Proceedings in an international conference)
+-   [http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr\\_14\\_79/tcstr\\_14\\_79.pdf](http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr_14_79/tcstr_14_79.pdf) (Technical report version of the proceeding above)
 
 *Note: These manuscripts explain only eulerian trail case, but the program
        includes both "all trails" and "all eulerian trails" case.
