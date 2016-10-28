@@ -34,18 +34,22 @@ The author developed a trail enumeration algorithm based on the simple path
 enumeration algorithm in both mathematical consideration and implementation.
 The key structure is "line graph", whose vertices correspond one-to-one
 to the edges in the original graph.
+
 [References]
-http://link.springer.com/chapter/10.1007/978-3-319-15612-5_15
-(Proceedings in an international conference)
-http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr_14_79/tcstr_14_79.pdf
-(Technical report version of the proceeding above)
+
+-   http://link.springer.com/chapter/10.1007/978-3-319-15612-5_15  
+    (Proceedings in an international conference)
+-   http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr_14_79/tcstr_14_79.pdf  
+    (Technical report version of the proceeding above)
+
 *Note: These manuscripts explain only eulerian trail case, but the program
        includes both "all trails" and "all eulerian trails" case.
 
 In this program, simple path enumeration is done with "Graphillion", ZDD-based
 graph and path library.
-https://github.com/takemaru/graphillion (distributed here)
-http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr_13_65/tcstr_13_65.pdf
+
+-   https://github.com/takemaru/graphillion (distributed here)
+-   http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr_13_65/tcstr_13_65.pdf
 
 # 3. Preparation
 
@@ -54,6 +58,7 @@ Install Python and then Graphillion (see above).
 # 4. Running the program
 
 First let us prepare graph files. (Some samples are included.)
+
 In the file, each line represents an edge, and each element in the line
 (separated by space) represents the vertex. The program assumes every line has
 just one space.
@@ -117,12 +122,14 @@ we get
 
 In the commands above, the following files are automatically generated.
 
-FILENAME.graph   - Original graph
-FILENAME.sgraph  - The simple graph of the original graph
-FILENAME.lsgraph - The line graph of the simple graph
-FILENAME.lsgraph.json
-- The mapping from the vertices in the original graph to the vertices in the
-  line graph (i.e. edges in the original graph)
+-   FILENAME.graph
+    -   Original graph
+-   FILENAME.sgraph
+    -   The simple graph of the original graph
+-   FILENAME.lsgraph
+    -   The line graph of the simple graph
+-   FILENAME.lsgraph.json
+    -   The mapping from the vertices in the original graph to the vertices in the line graph (i.e. edges in the original graph)
 
 # 5. Command line option
 

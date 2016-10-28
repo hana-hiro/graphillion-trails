@@ -31,16 +31,17 @@ http://www.jst.go.jp/erato/research_area/ongoing/mrk_PJ.html
 著者はこのsimple path列挙手法を、trailの列挙のために用いることを検討し、
 これが行える条件を数学的に示すとともに実装しました。
 具体的には、元のグラフの各辺に一対一対応する点を持つグラフ「line graph」を用いています。
-http://link.springer.com/chapter/10.1007/978-3-319-15612-5_15 （国際会議原稿）
-http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr_14_79/tcstr_14_79.pdf （上記のテクニカルレポート版）
+
+-   http://link.springer.com/chapter/10.1007/978-3-319-15612-5_15 （国際会議原稿）
+-   http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr_14_79/tcstr_14_79.pdf （上記のテクニカルレポート版）
+
 （上記の記事ではEulerian trailに限定して議論していますが、一般のtrailでも方法は同じです）
 
 なお本プログラムでは、simple pathを列挙するためのソフトウェアとして、上記の手法を
 Pythonから使えるようにしたライブラリ「Graphillion」を用いています。
-[Graphillion配布サイト]
-https://github.com/takemaru/graphillion
-[技術解説（英語）]
-http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr_13_65/tcstr_13_65.pdf
+
+-   [Graphillion配布サイト] https://github.com/takemaru/graphillion
+-   [技術解説（英語）] http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr_13_65/tcstr_13_65.pdf
 
 # 3. 準備
 
@@ -49,6 +50,7 @@ PythonとGraphillion（上記参照）をインストールしてください。
 # 4. 動かす
 
 まず、グラフを表すファイルを用意します。（サンプルも含まれています。）
+
 グラフを表すファイルは、各行が辺を表し、各行をスペースで区切ったそれぞれが頂点を表すものとします。
 （一つの行にスペースがちょうど一つ存在している必要があります。）
 グラフを表すファイルは、拡張子を.graphとすることを推奨します。
@@ -93,7 +95,7 @@ PythonとGraphillion（上記参照）をインストールしてください。
 のように出力されます。冒頭に示した通り、相異なるtrailが9個あると計算されました。
 なお、「-E A,D」の部分で、「Aを起点、Dを終点とするtrailを列挙する」となります。
 
--E を -U に変えると、オイラー路（すべての辺をちょうど1度ずつ使うtrail）を列挙します。
+"-E" を "-U" に変えると、オイラー路（すべての辺をちょうど1度ずつ使うtrail）を列挙します。
 
     python graphtrail.py -U B,C sample/box.graph
 
@@ -114,12 +116,14 @@ PythonとGraphillion（上記参照）をインストールしてください。
 
 なお上記の処理においては、以下の拡張子によりファイルが自動生成されます。
 
-ファイル名.graph   - 元のグラフ
-ファイル名.sgraph  - 元のグラフを単純グラフにしたもの
-ファイル名.lsgraph - 単純グラフをline graphにしたもの
-ファイル名.lsgraph.json
-- Line graphにする前の元のグラフの頂点から、それを含むline graph上の頂点
-  （＝元のグラフ上の辺）の一覧を得る連想配列
+-   ファイル名.graph
+    -   元のグラフ
+-   ファイル名.sgraph
+    -   元のグラフを単純グラフにしたもの
+-   ファイル名.lsgraph
+    -   単純グラフをline graphにしたもの
+-   ファイル名.lsgraph.json
+    -   Line graphにする前の元のグラフの頂点から、それを含むline graph上の頂点（＝元のグラフ上の辺）の一覧を得る連想配列
 
 # 5. コマンドラインオプション
 
